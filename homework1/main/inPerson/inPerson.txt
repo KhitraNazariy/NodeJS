@@ -1,0 +1,6 @@
+name: Orest
+age: 22
+age: 25
+name: Vasia
+city: Rivne
+city: Lviv

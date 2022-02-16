@@ -1,0 +1,6 @@
+name: Andrii
+age: 22
+age: 25
+city: Lviv
+city: Rivne
+name: Kostia
