@@ -35,12 +35,15 @@ app.get('/users', ({ query }, res) => {
     if (Object.keys(query).length) {
         const {city, age} = query;
         let usersArr = [...users];
-        if (query.city) {
+
+        if (city) {
             usersArr = usersArr.filter(user => user.city === city);
         }
-        if (query.age) {
+
+        if (age) {
             usersArr = usersArr.filter(user => user.age === age)
         }
+
         res.render('users', { users: usersArr });
         return;
     }
